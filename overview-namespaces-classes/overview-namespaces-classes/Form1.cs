@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MyNamespace;
 
-namespace methods
+namespace overview_namespaces_classes
 {
     public partial class Form1 : Form
     {
@@ -19,11 +20,9 @@ namespace methods
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Message("z","msg");
-        }
-        void Message(string msg,string tit)
-        {
-            MessageBox.Show(msg, tit);
+            MyClass mc = new MyClass("zhang");
+
+     
         }
     }
 }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{57C7CBD4-8E2D-4103-98BC-3FF1F345D5AD}</ProjectGuid>
+    <ProjectGuid>{9B74F6EA-BAC4-4B27-91AC-D4294A5AADFE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>methods</RootNamespace>
-    <AssemblyName>methods</AssemblyName>
+    <RootNamespace>continue_break</RootNamespace>
+    <AssemblyName>continue-break</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

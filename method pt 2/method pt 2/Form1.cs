@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace methods
+namespace method_pt_2
 {
     public partial class Form1 : Form
     {
@@ -19,11 +19,14 @@ namespace methods
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Message("z","msg");
+        
+            MessageBox.Show(MyMethod("zhang"));
         }
-        void Message(string msg,string tit)
+         string MyMethod(string name)
         {
-            MessageBox.Show(msg, tit);
+            //return name;
+            //return 1.ToString();
+            return true.ToString();
         }
     }
 }

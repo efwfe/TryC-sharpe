@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace methods
+namespace continue_break
 {
     public partial class Form1 : Form
     {
@@ -19,11 +19,12 @@ namespace methods
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Message("z","msg");
-        }
-        void Message(string msg,string tit)
-        {
-            MessageBox.Show(msg, tit);
+            for (int i=0;  i<10;i++)
+            {
+                //if (i == 2) break;
+                if (i == 2) continue;
+                textBox1.Text += i.ToString();
+            }
         }
     }
 }
