@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listControl", "listControl\listControl.csproj", "{1ED5D0C9-E8AB-48A4-9DB3-8F2A4182DAC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ED5D0C9-E8AB-48A4-9DB3-8F2A4182DAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED5D0C9-E8AB-48A4-9DB3-8F2A4182DAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED5D0C9-E8AB-48A4-9DB3-8F2A4182DAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED5D0C9-E8AB-48A4-9DB3-8F2A4182DAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89BFB10E-5C47-4A7B-9934-42DBE664C044}
+	EndGlobalSection
+EndGlobal
